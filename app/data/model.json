@@ -1,0 +1,28 @@
+{
+  "model_type": "XGBClassifier",
+  "encoders": {
+    "feature_columns": [
+      "bill_length_mm",
+      "bill_depth_mm",
+      "flipper_length_mm",
+      "body_mass_g",
+      "year",
+      "sex_female",
+      "sex_male",
+      "island_Biscoe",
+      "island_Dream",
+      "island_Torgersen"
+    ],
+    "label_encoder": {
+      "classes": [
+        "Adelie",
+        "Chinstrap",
+        "Gentoo"
+      ]
+    }
+  },
+  "metrics": {
+    "accuracy": 0.95,
+    "note": "Default model - please train with actual data"
+  }
+}
